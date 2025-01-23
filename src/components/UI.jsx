@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 import { NB_ROUNDS, useGameEngine } from "../hooks/useGameEngine";
 
 const audios = {
-  background: new Audio("/audios/Drunken Sailor - Cooper Cannell.mp3"),
-  punch: new Audio("/audios/punch.mp3"),
-  shield: new Audio("/audios/shield.mp3"),
-  grab: new Audio("/audios/grab.mp3"),
-  fail: new Audio("/audios/fail.mp3"),
-  cards: new Audio("/audios/cards.mp3"),
+  background: new Audio("/Audio/Drunken Sailor - Cooper Cannell.mp3"),
+  punch: new Audio("/Audio/punch.mp3"),
+  shield: new Audio("/Audio/shield.mp3"),
+  grab: new Audio("/Audio/grab.mp3"),
+  fail: new Audio("/Audio/fail.mp3"),
+  cards: new Audio("/Audio/cards.mp3"),
 };
 
 export const UI = () => {
