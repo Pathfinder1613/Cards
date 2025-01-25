@@ -4,11 +4,11 @@ import { NB_ROUNDS, useGameEngine } from "../hooks/useGameEngine";
 
 const audios = {
   background: new Audio("/Audio/Drunken Sailor - Cooper Cannell.mp3"),
-  punch: new Audio("/Audio/punch.mp3"),
-  shield: new Audio("/Audio/shield.mp3"),
-  grab: new Audio("/Audio/grab.mp3"),
-  fail: new Audio("/Audio/fail.mp3"),
-  cards: new Audio("/Audio/cards.mp3"),
+  punch: new Audio("/audio/punch.mp3"),
+  shield: new Audio("/audio/shield.mp3"),
+  grab: new Audio("/audio/grab.mp3"),
+  fail: new Audio("/audio/fail.mp3"),
+  cards: new Audio("/audio/cards.mp3"),
 };
 
 export const UI = () => {
